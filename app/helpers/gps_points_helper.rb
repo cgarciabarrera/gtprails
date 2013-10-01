@@ -1,0 +1,2 @@
+module GpsPointsHelper
+end

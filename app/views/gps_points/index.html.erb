@@ -1,0 +1,36 @@
+<h1>Listing gps_points</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Accuracy</th>
+      <th>Provider</th>
+      <th>IMEI</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gps_points.each do |gps_point| %>
+      <tr>
+        <td><%= gps_point.latitude %></td>
+        <td><%= gps_point.longitude %></td>
+        <td><%= gps_point.accuracy %></td>
+        <td><%= gps_point.provider %></td>
+        <td><%= Device.find(gps_point.device_id).name %></td>
+        <td><%= time_ago_in_words(gps_point.created_at) + " ago"%></td>
+        <td><%= link_to 'Show', gps_point %></td>
+        <td><%= link_to 'Edit', edit_gps_point_path(gps_point) %></td>
+        <td><%= link_to 'Destroy', gps_point, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Gps point', new_gps_point_path %>
