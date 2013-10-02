@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3971492285">
-    <data-source source="LOCAL" name="Rails gpt: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="8b607f28-41e5-450a-84cb-c23811078877">
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/freeditorial_prod</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfeedfcfdfd9dfcbdfd8dfd8dfc5dfc6dfc6dfc5df9adf9b</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
-        </library>
-      </libraries>
-    </data-source>
+  <component name="DataSourceManagerImpl" format="xml" hash="4288738466">
     <data-source source="LOCAL" name="Rails gpt: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="103faf4f-5ce1-4af7-be52-1eb1ab9ca6b9">
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/gpt_dev</jdbc-url>
