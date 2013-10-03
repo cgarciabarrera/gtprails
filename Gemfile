@@ -48,6 +48,8 @@ end
 gem 'rails_12factor', group: :production
 gem 'pg'
 
+gem 'polylines'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

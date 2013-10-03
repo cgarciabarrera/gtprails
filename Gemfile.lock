@@ -94,6 +94,7 @@ GEM
     mysql2 (0.3.13)
     pg (0.17.0)
     polyglot (0.3.3)
+    polylines (0.1.1)
     posix-spawn (0.3.6)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -189,6 +190,7 @@ DEPENDENCIES
   jquery-rails
   mysql2
   pg
+  polylines
   rails (= 4.0.0)
   rails_12factor
   sass-rails (~> 4.0.0)

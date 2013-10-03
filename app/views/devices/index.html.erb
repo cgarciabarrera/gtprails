@@ -14,9 +14,16 @@
     <% @devices.each do |device| %>
       <tr>
         <td><%= device.name %></td>
-        <td><%= link_to 'Show', device %></td>
-        <td><%= link_to 'Edit', edit_device_path(device) %></td>
-        <td><%= link_to 'Destroy', device, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%
+           @PuntosCada = GpsPoint.where('device_id=?',device.id).order("created_at desc").map { |i| [i[:latitude], i[:longitude]] }
+
+              a=Polylines::Encoder.encode_points(@PuntosCada)
+
+        %>
+        <td> <img src="http://maps.googleapis.com/maps/api/staticmap?sensor=true&size=1000x1000&path=weight:3%7Ccolor:orange%7Cenc:<%=a%>"> </td>
+
+
+
       </tr>
     <% end %>
   </tbody>
@@ -24,4 +31,3 @@
 
 <br>
 
-<%= link_to 'New Device', new_device_path %>
