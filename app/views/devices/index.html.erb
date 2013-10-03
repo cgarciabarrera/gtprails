@@ -21,7 +21,7 @@
               a=Polylines::Encoder.encode_points(@PuntosCada)
 
         %>
-        <td> <%= @puntos.first.latitude.to_s %><%= @puntos.first.longitude.to_s%><img src="http://maps.googleapis.com/maps/api/staticmap?sensor=true&size=1000x1000&markers=color:blue%7Clabel:S%7C<%= @puntos.last.latitude.to_s %>,<%= @puntos.last.longitude.to_s%>&path=weight:3%7Ccolor:0x0000ff%7Cenc:<%=a%>"> </td>
+        <td> <img src="http://maps.googleapis.com/maps/api/staticmap?sensor=true&size=1000x1000&markers=color:blue%7Clabel:S%7C<%= @puntos.first.latitude.to_s %>,<%= @puntos.first.longitude.to_s%>&path=weight:3%7Ccolor:0x0000ff%7Cenc:<%=a%>"> </td>
 
 
 
