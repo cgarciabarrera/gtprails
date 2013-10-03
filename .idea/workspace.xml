@@ -78,10 +78,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="89" selection-start="336" selection-end="336" vertical-scroll-proportion="0.280837">
-              <folding>
-                <marker date="1380838807148" expanded="true" signature="378:415" placeholder="{ ... }" />
-              </folding>
+            <state line="18" column="65" selection-start="392" selection-end="392" vertical-scroll-proportion="0.2973568">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -816,10 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="89" selection-start="336" selection-end="336" vertical-scroll-proportion="0.280837">
-          <folding>
-            <marker date="1380838807148" expanded="true" signature="378:415" placeholder="{ ... }" />
-          </folding>
+        <state line="18" column="65" selection-start="392" selection-end="392" vertical-scroll-proportion="0.2973568">
+          <folding />
         </state>
       </provider>
     </entry>
