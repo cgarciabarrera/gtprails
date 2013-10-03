@@ -15,12 +15,13 @@
       <tr>
         <td><%= device.name %></td>
         <%
-           @PuntosCada = GpsPoint.where('device_id=?',device.id).order("created_at desc").limit(50000).map { |i| [i[:latitude], i[:longitude]] }
+           @puntos = GpsPoint.where('device_id=?',device.id).order("created_at desc").limit(20)
+           @PuntosCada = @puntos.map { |i| [i[:latitude], i[:longitude]] }
 
               a=Polylines::Encoder.encode_points(@PuntosCada)
 
         %>
-        <td> <img src="http://maps.googleapis.com/maps/api/staticmap?sensor=true&size=400x400&path=weight:3%7Ccolor:0x0000ff%7Cenc:<%=a%>"> </td>
+        <td> <%= @puntos.last.latitude.to_s %><%= @puntos.last.longitude.to_s%><img src="http://maps.googleapis.com/maps/api/staticmap?sensor=true&size=1000x1000&markers=color:blue%7Clabel:S%7C<%= @puntos.last.latitude.to_s %>,<%= @puntos.last.longitude.to_s%>&path=weight:3%7Ccolor:0x0000ff%7Cenc:<%=a%>"> </td>
 
 
 
