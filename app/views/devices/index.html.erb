@@ -15,7 +15,7 @@
       <tr>
         <td><%= device.name %></td>
         <%
-           @PuntosCada = GpsPoint.where('device_id=?',device.id).order("created_at desc").map { |i| [i[:latitude], i[:longitude]] }
+           @PuntosCada = GpsPoint.where('device_id=?',device.id).order("created_at desc").limit(100).map { |i| [i[:latitude], i[:longitude]] }
 
               a=Polylines::Encoder.encode_points(@PuntosCada)
 

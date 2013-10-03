@@ -15,7 +15,7 @@
     <file path="/20131001170637_add_imei_to_device.rb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380647318187" ignored="false" />
     <file path="/device.rb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380648718903" ignored="false" />
     <file path="/20131001171058_add_device_id_to_gps_point.rb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380647563391" ignored="false" />
-    <file path="/index.html.erb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380837756104" ignored="false" />
+    <file path="/index.html.erb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380838179130" ignored="false" />
     <file path="/show.html.erb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380648866305" ignored="false" />
     <file path="/20131001212123_add_accuracy_and_provider_to_gps_points.rb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380662549323" ignored="false" />
     <file path="/20131001212347_add_index_to_name_devices.rb" changelist="1ab1f8ad-668e-4576-b0b0-462e69eb5d22" time="1380662661035" ignored="false" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="126" selection-start="580" selection-end="580" vertical-scroll-proportion="0.36343613">
+            <state line="18" column="99" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2973568">
               <folding />
             </state>
           </provider>
@@ -814,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="126" selection-start="580" selection-end="580" vertical-scroll-proportion="0.36343613">
+        <state line="18" column="99" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2973568">
           <folding />
         </state>
       </provider>
